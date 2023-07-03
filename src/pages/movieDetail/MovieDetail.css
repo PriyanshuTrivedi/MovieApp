@@ -1,0 +1,76 @@
+.img_plus_details{
+    height: 90%;
+    width: 75vw;
+    margin: auto;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+}
+.backdropImg{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.mainData{
+    height: 40vh;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.data{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.posterImage{
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.give_right_margin{
+    margin-right: 10px;
+}
+.genre span{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding:6px;
+}
+.release_date,.genre,.rating,.runtime,.budget,.revenue{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.genre{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.name{
+    font-size: 56px;
+}
+.main_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    width: 50vw;
+    margin-left: 20vw;
+}
+.overviewDesc{
+    font-size: 30px;
+}
+.desc{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.detailSkeleton{
+    height: 100%;
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+}
+.topmargin{
+    margin-top: 20px;
+}
